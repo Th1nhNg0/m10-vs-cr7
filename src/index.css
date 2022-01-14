@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.awsome_bg {
+  background-color: #e9e7d2;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23acab92' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.shine {
+  color: rgb(194, 168, 21);
+  font-size: 3vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  display: inline-block;
+  position: relative;
+  font-family: "Merriweather", serif;
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(255, 255, 255, 0.6) 30%,
+    #fff 50%,
+    rgba(255, 255, 255, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
 }
