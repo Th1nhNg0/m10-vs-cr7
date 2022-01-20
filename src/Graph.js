@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Graph() {
   return (
-    <div>
+    <div className="space-y-10 divide-y-2 divide-amber-500 divide-dashed">
       <div>
         <iframe
           className="w-full h-[400px]"
@@ -13,14 +13,14 @@ export default function Graph() {
           <div className="flex-1 p-5">
             <img
               src="images/gif/messi_goal.gif"
-              className="aspect-video"
+              className="object-cover w-full h-full aspect-video"
               alt=""
             />
           </div>
           <div className="flex-1 p-5">
             <img
               src="images/gif/ronaldo_goal.gif"
-              className="aspect-video"
+              className="object-cover w-full h-full aspect-video"
               alt=""
             />
           </div>
@@ -36,20 +36,24 @@ export default function Graph() {
           <div className="flex-1 px-20">
             <img
               src="images/gif/messi_cele.gif"
-              className="aspect-square"
+              className="object-cover w-full h-full aspect-square"
               alt=""
             />
           </div>
           <div className="flex-1 px-20">
             <img
               src="images/gif/ronaldo_cele.gif"
-              className="aspect-square"
+              className="object-cover w-full h-full aspect-square"
               alt=""
             />
           </div>
         </div>
       </div>
-
+      <iframe
+        className="w-full h-[450px]"
+        title="Goals type compare"
+        src="graph/penalty_pie.html"
+      ></iframe>
       <iframe
         className="w-full h-[450px]"
         title="Goals type compare"
