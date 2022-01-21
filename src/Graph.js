@@ -1,4 +1,5 @@
 import React from "react";
+import RadarChart from "./RadarChart";
 
 export default function Graph() {
   return (
@@ -51,28 +52,35 @@ export default function Graph() {
       </div>
       <iframe
         className="w-full h-[450px]"
-        title="Goals type compare"
+        title="Penalty compare"
         src="graph/penalty_pie.html"
+      ></iframe>
+
+      <RadarChart />
+      <iframe
+        className="w-full h-[450px]"
+        title="Value compare"
+        src="graph/value.html"
       ></iframe>
       <iframe
         className="w-full h-[450px]"
-        title="Goals type compare"
+        title="Danh hieu CLB"
         src="graph/sodanhhieucapCLB.html"
       ></iframe>
       <iframe
         className="w-full h-[450px]"
-        title="Goals type compare"
+        title="sotranthidau"
         src="graph/sotranthidau.html"
       ></iframe>
 
       <iframe
         className="w-full h-[450px]"
-        title="Goals type compare"
+        title="thephat"
         src="graph/thephat.html"
       ></iframe>
       <iframe
         className="w-full h-[450px]"
-        title="Goals type compare"
+        title="theodoi"
         src="graph/theodoi.html"
       ></iframe>
     </div>
