@@ -76,11 +76,7 @@ export default function Graph() {
           </div>
         </div>
       </div>
-      <iframe
-        className="w-full h-[450px]"
-        title="Penalty compare"
-        src="graph/goal_equaliser.html"
-      ></iframe>
+
       <div>
         <iframe
           className="w-full h-[450px]"
@@ -99,7 +95,31 @@ export default function Graph() {
           còn CR7 sút quyết đoán = mu và vào góc hiểm.
         </div>
       </div>
-
+      <div>
+        <iframe
+          className="w-full h-[450px]"
+          title="theodoi"
+          src="graph/theodoi.html"
+        ></iframe>
+        <div className="max-w-4xl mx-auto mb-10 text-justify">
+          <p>
+            Trong xã hội hiện đại, internet phát triển và toàn cầu hóa, ảnh
+            hưởng của mỗi cá nhân đối với mọi người là rất lớn. bóng đá là môn
+            thể thao vua, trong đó ronaldo và messi là 2 cầu thủ xuất sắc nhất
+            hiện nay, Ronaldo có ảnh hưởng lớn hơn messi trên 3 nền tảng
+            facebook, instagram, twitter.
+          </p>
+        </div>
+      </div>
+      <h2 className="pt-8 text-xl font-semibold text-center">
+        Xem vài chỉ số khác để đánh giá tổng quát về màn trình diễn và đóng góp
+        của mỗi người vào lối chơi chung của toàn đội.
+      </h2>
+      <iframe
+        className="w-full h-[450px]"
+        title="Penalty compare"
+        src="graph/goal_equaliser.html"
+      ></iframe>
       <RadarChart />
       <iframe
         className="w-full h-[450px]"
@@ -116,16 +136,10 @@ export default function Graph() {
         title="sotranthidau"
         src="graph/sotranthidau.html"
       ></iframe>
-
       <iframe
         className="w-full h-[450px]"
         title="thephat"
         src="graph/thephat.html"
-      ></iframe>
-      <iframe
-        className="w-full h-[450px]"
-        title="theodoi"
-        src="graph/theodoi.html"
       ></iframe>
     </div>
   );
