@@ -53,6 +53,12 @@ export default function Graph() {
       <iframe
         className="w-full h-[450px]"
         title="Penalty compare"
+        src="graph/goal_equaliser.html"
+      ></iframe>
+
+      <iframe
+        className="w-full h-[450px]"
+        title="Penalty compare"
         src="graph/penalty_pie.html"
       ></iframe>
 

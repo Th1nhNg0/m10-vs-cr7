@@ -3,7 +3,7 @@ import Achievements from "./Achievements";
 
 export default function App() {
   return (
-    <div className="py-5 awsome_bg">
+    <div className="awsome_bg">
       <div className="max-w-screen-xl p-5 mx-auto bg-white border-2">
         <div className="max-w-screen-lg mx-auto divide-y-2 divide-y-10 divide-amber-500 divide-dashed">
           <Image />
@@ -19,6 +19,7 @@ export default function App() {
 function Footer() {
   return (
     <div className="py-5 my-5 text-center ">
+      <p className="text-sm"> Dữ liệu được cập nhất đến ngày 12/01/2022.</p>
       <a
         href="https://github.com/Th1nhNg0/m10-vs-cr7"
         className="text-blue-500 underline"
