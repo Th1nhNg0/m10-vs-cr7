@@ -37,7 +37,7 @@ export default function Graph() {
               playsInline
               autoPlay
               loop
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full rounded-2xl"
             >
               <source src="images/gif/messi_goal.webm" type="video/webm" />
             </video>
@@ -48,7 +48,7 @@ export default function Graph() {
               playsInline
               autoPlay
               loop
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full rounded-2xl"
             >
               <source src="images/gif/ronaldo_goal.webm" type="video/webm" />
             </video>
@@ -86,7 +86,7 @@ export default function Graph() {
               playsInline
               autoPlay
               loop
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full rounded-2xl"
             >
               <source
                 src="images/gif/LikableSimplisticBetafish-mobile.webm"
@@ -100,7 +100,7 @@ export default function Graph() {
               playsInline
               autoPlay
               loop
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full rounded-2xl"
             >
               <source src="images/gif/giphy.webm" type="video/webm" />
             </video>
