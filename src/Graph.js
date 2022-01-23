@@ -8,6 +8,7 @@ export default function Graph() {
       <div>
         <iframe
           className="w-full h-[400px]"
+          loading="lazy"
           title="Goals compare"
           src="graph/goals.html"
         ></iframe>
@@ -32,6 +33,7 @@ export default function Graph() {
         <div className="flex gap-10">
           <div className="flex-1 p-5">
             <img
+              loading="lazy"
               src="images/gif/messi_goal.gif"
               className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
@@ -39,6 +41,7 @@ export default function Graph() {
           </div>
           <div className="flex-1 p-5">
             <img
+              loading="lazy"
               src="images/gif/ronaldo_goal.gif"
               className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
@@ -49,6 +52,7 @@ export default function Graph() {
       <div>
         <iframe
           className="w-full h-[450px]"
+          loading="lazy"
           title="Goals type compare"
           src="graph/goals_type.html"
         ></iframe>
@@ -66,11 +70,13 @@ export default function Graph() {
         <iframe
           className="w-full h-[450px]"
           title="Penalty compare"
+          loading="lazy"
           src="graph/goal_equaliser.html"
         ></iframe>
         <div className="flex gap-10">
           <div className="flex-1 ">
             <img
+              loading="lazy"
               src="images/gif/LikableSimplisticBetafish-mobile.gif"
               className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
@@ -78,6 +84,7 @@ export default function Graph() {
           </div>
           <div className="flex-1 ">
             <img
+              loading="lazy"
               src="images/gif/giphy.gif"
               className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
@@ -87,6 +94,7 @@ export default function Graph() {
       </div>
       <div>
         <iframe
+          loading="lazy"
           className="w-full h-[450px]"
           title="Penalty compare"
           src="graph/penalty_pie.html"
@@ -106,6 +114,7 @@ export default function Graph() {
       <div>
         <iframe
           className="w-full h-[450px]"
+          loading="lazy"
           title="theodoi"
           src="graph/theodoi.html"
         ></iframe>
@@ -127,20 +136,24 @@ export default function Graph() {
       <RadarChart />
       <iframe
         className="w-full h-[450px]"
+        loading="lazy"
         title="Value compare"
         src="graph/value.html"
       ></iframe>
       <iframe
         className="w-full h-[450px]"
         title="Danh hieu CLB"
+        loading="lazy"
         src="graph/sodanhhieucapCLB.html"
       ></iframe>
       <iframe
         className="w-full h-[450px]"
+        loading="lazy"
         title="sotranthidau"
         src="graph/sotranthidau.html"
       ></iframe>
       <iframe
+        loading="lazy"
         className="w-full h-[450px]"
         title="thephat"
         src="graph/thephat.html"

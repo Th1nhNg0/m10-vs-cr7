@@ -1,9 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, A11y, Lazy, Autoplay } from "swiper";
+import { Navigation, A11y, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/lazy";
 import "swiper/css/autoplay";
 
 const images = [
@@ -27,20 +26,20 @@ export default function Slider() {
         spaceBetween={30}
         autoplay={{
           pauseOnMouseEnter: true,
-          waitForTransition: true,
-          delay: 3000,
+
+          delay: 2000,
         }}
         slidesPerView={3}
-        modules={[Navigation, A11y, Lazy, Autoplay]}
+        modules={[Navigation, A11y, Autoplay]}
         navigation
         loop={true}
-        lazy={true}
         pagination={{ clickable: true }}
       >
         {images.map((image) => (
           <SwiperSlide key={image}>
             <div>
               <img
+                loading="lazy"
                 className="object-cover w-full h-full rounded-2xl aspect-video"
                 src={image}
                 alt=""
