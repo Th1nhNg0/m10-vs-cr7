@@ -1,5 +1,6 @@
 import React from "react";
 import RadarChart from "./RadarChart";
+import Slider from "./Slider";
 
 export default function Graph() {
   return (
@@ -32,14 +33,14 @@ export default function Graph() {
           <div className="flex-1 p-5">
             <img
               src="images/gif/messi_goal.gif"
-              className="object-cover w-full h-full aspect-video"
+              className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
             />
           </div>
           <div className="flex-1 p-5">
             <img
               src="images/gif/ronaldo_goal.gif"
-              className="object-cover w-full h-full aspect-video"
+              className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
             />
           </div>
@@ -59,22 +60,7 @@ export default function Graph() {
             M10 chủ yếu là đặt lòng.
           </p>
         </div>
-        <div className="flex gap-10">
-          <div className="flex-1 px-20">
-            <img
-              src="images/gif/messi_cele.gif"
-              className="object-cover w-full h-full aspect-square"
-              alt=""
-            />
-          </div>
-          <div className="flex-1 px-20">
-            <img
-              src="images/gif/ronaldo_cele.gif"
-              className="object-cover w-full h-full aspect-square"
-              alt=""
-            />
-          </div>
-        </div>
+        <Slider />
       </div>
       <div>
         <iframe
@@ -86,14 +72,14 @@ export default function Graph() {
           <div className="flex-1 ">
             <img
               src="images/gif/LikableSimplisticBetafish-mobile.gif"
-              className="object-cover w-full h-full aspect-video"
+              className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
             />
           </div>
           <div className="flex-1 ">
             <img
               src="images/gif/giphy.gif"
-              className="object-cover w-full h-full aspect-video"
+              className="object-cover w-full h-full rounded-2xl aspect-video"
               alt=""
             />
           </div>
