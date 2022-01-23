@@ -26,8 +26,7 @@ export default function Graph() {
             đối với mọi cầu thủ cũng như là các đội bóng thèm thuồng có một tiền
             đạo như các anh.
             <br /> {/* xuống hàng */}
-            Hiện nay thì Ronaldo đang nắm giữ kỷ lục ghi bàn mọi thời đại của
-            thế giới
+            
           </p>
         </div>
         <div className="flex gap-10">
