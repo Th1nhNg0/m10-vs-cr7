@@ -25,7 +25,7 @@ export default function Graph() {
             đạo như các anh.
             <br /> {/* xuống hàng */}
             Hiện nay thì Ronaldo đang nắm giữ kỷ lục ghi bàn mọi thời đại của
-            thế giới.
+            thế giới
           </p>
         </div>
         <div className="flex gap-10">
@@ -60,7 +60,7 @@ export default function Graph() {
           </p>
         </div>
         <div className="flex gap-10">
-          <div className="flex-1 px-20">
+          <div className="flex-1 px-20">   
             <img
               src="images/gif/messi_cele.gif"
               className="object-cover w-full h-full aspect-square"
