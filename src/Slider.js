@@ -6,17 +6,17 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 const images = [
-  "/images/gif/penisGoal.gif",
-  "/images/gif/real.gif",
-  "/images/gif/vsATM.gif",
-  "/images/gif/vsAletico.gif",
-  "/images/gif/vsAta.gif",
-  "/images/gif/vsPorto.gif",
-  "/images/gif/vsVil.gif",
-  "/images/gif/vsWolf.gif",
-  "/images/gif/vsbayern.gif",
-  "/images/gif/vspsg.gif",
-  "/images/gif/vsreal.gif",
+  "/images/gif/penisGoal.webm",
+  "/images/gif/real.webm",
+  "/images/gif/vsATM.webm",
+  "/images/gif/vsAletico.webm",
+  "/images/gif/vsAta.webm",
+  "/images/gif/vsPorto.webm",
+  "/images/gif/vsVil.webm",
+  "/images/gif/vsWolf.webm",
+  "/images/gif/vsbayern.webm",
+  "/images/gif/vspsg.webm",
+  "/images/gif/vsreal.webm",
 ].sort(() => Math.random() - 0.5);
 
 export default function Slider() {
@@ -27,7 +27,7 @@ export default function Slider() {
         autoplay={{
           pauseOnMouseEnter: true,
 
-          delay: 2000,
+          delay: 800,
         }}
         slidesPerView={3}
         modules={[Navigation, A11y, Autoplay]}
@@ -37,13 +37,16 @@ export default function Slider() {
       >
         {images.map((image) => (
           <SwiperSlide key={image}>
-            <div>
-              <img
-                loading="lazy"
-                className="object-cover w-full h-full rounded-2xl aspect-video"
-                src={image}
-                alt=""
-              />
+            <div className="w-full h-full aspect-video">
+              <video
+                muted
+                playsInline
+                autoPlay
+                loop
+                className="object-cover w-full h-full rounded-2xl"
+              >
+                <source src={image} type="video/webm" />
+              </video>
             </div>
           </SwiperSlide>
         ))}

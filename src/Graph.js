@@ -31,21 +31,27 @@ export default function Graph() {
           </p>
         </div>
         <div className="flex gap-10">
-          <div className="flex-1 p-5">
-            <img
-              loading="lazy"
-              src="images/gif/messi_goal.gif"
-              className="object-cover w-full h-full rounded-2xl aspect-video"
-              alt=""
-            />
+          <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
+            <video
+              muted
+              playsInline
+              autoPlay
+              loop
+              className="object-cover w-full h-full"
+            >
+              <source src="images/gif/messi_goal.webm" type="video/webm" />
+            </video>
           </div>
-          <div className="flex-1 p-5">
-            <img
-              loading="lazy"
-              src="images/gif/ronaldo_goal.gif"
-              className="object-cover w-full h-full rounded-2xl aspect-video"
-              alt=""
-            />
+          <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
+            <video
+              muted
+              playsInline
+              autoPlay
+              loop
+              className="object-cover w-full h-full"
+            >
+              <source src="images/gif/ronaldo_goal.webm" type="video/webm" />
+            </video>
           </div>
         </div>
       </div>
@@ -74,21 +80,30 @@ export default function Graph() {
           src="graph/goal_equaliser.html"
         ></iframe>
         <div className="flex gap-10">
-          <div className="flex-1 ">
-            <img
-              loading="lazy"
-              src="images/gif/LikableSimplisticBetafish-mobile.gif"
-              className="object-cover w-full h-full rounded-2xl aspect-video"
-              alt=""
-            />
+          <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
+            <video
+              muted
+              playsInline
+              autoPlay
+              loop
+              className="object-cover w-full h-full"
+            >
+              <source
+                src="images/gif/LikableSimplisticBetafish-mobile.webm"
+                type="video/webm"
+              />
+            </video>
           </div>
-          <div className="flex-1 ">
-            <img
-              loading="lazy"
-              src="images/gif/giphy.gif"
-              className="object-cover w-full h-full rounded-2xl aspect-video"
-              alt=""
-            />
+          <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
+            <video
+              muted
+              playsInline
+              autoPlay
+              loop
+              className="object-cover w-full h-full"
+            >
+              <source src="images/gif/giphy.webm" type="video/webm" />
+            </video>
           </div>
         </div>
       </div>
