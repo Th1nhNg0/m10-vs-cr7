@@ -60,7 +60,7 @@ export default function Graph() {
           </p>
         </div>
         <div className="flex gap-10">
-          <div className="flex-1 px-20">   
+          <div className="flex-1 px-20">
             <img
               src="images/gif/messi_cele.gif"
               className="object-cover w-full h-full aspect-square"
@@ -76,7 +76,29 @@ export default function Graph() {
           </div>
         </div>
       </div>
-
+      <div>
+        <iframe
+          className="w-full h-[450px]"
+          title="Penalty compare"
+          src="graph/goal_equaliser.html"
+        ></iframe>
+        <div className="flex gap-10">
+          <div className="flex-1 ">
+            <img
+              src="images/gif/LikableSimplisticBetafish-mobile.gif"
+              className="object-cover w-full h-full aspect-video"
+              alt=""
+            />
+          </div>
+          <div className="flex-1 ">
+            <img
+              src="images/gif/giphy.gif"
+              className="object-cover w-full h-full aspect-video"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
       <div>
         <iframe
           className="w-full h-[450px]"
@@ -115,11 +137,7 @@ export default function Graph() {
         Xem vài chỉ số khác để đánh giá tổng quát về màn trình diễn và đóng góp
         của mỗi người vào lối chơi chung của toàn đội.
       </h2>
-      <iframe
-        className="w-full h-[450px]"
-        title="Penalty compare"
-        src="graph/goal_equaliser.html"
-      ></iframe>
+
       <RadarChart />
       <iframe
         className="w-full h-[450px]"
