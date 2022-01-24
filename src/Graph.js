@@ -78,6 +78,7 @@ export default function Graph() {
           title="Penalty compare"
           loading="lazy"
           src="graph/goal_equaliser.html"
+  
         ></iframe>
         <div className="flex gap-10">
           <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
@@ -144,7 +145,7 @@ export default function Graph() {
         </div>
       </div>
       <h2 className="pt-8 text-xl font-semibold text-center">
-        Xem vài chỉ số khác để đánh giá tổng quát về màn trình diễn và đóng góp
+        Các chỉ số khác để đánh giá tổng quát về màn trình diễn và đóng góp
         của mỗi người vào lối chơi chung của toàn đội.
       </h2>
 
