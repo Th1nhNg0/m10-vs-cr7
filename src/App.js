@@ -8,6 +8,12 @@ export default function App() {
         <div className="max-w-screen-lg mx-auto divide-y-2 divide-y-10 divide-amber-500 divide-dashed">
           <Image />
           <Info />
+          <div className="py-8 text-center ">
+            <h2 className="font-mono text-4xl font-bold ">
+              Messi vs Ronaldo: Who is the best?
+            </h2>
+            <p className="text-lg">Let find out with us!</p>
+          </div>
           <Graph />
           <Achievements />
           <Footer />
