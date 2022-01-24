@@ -149,8 +149,13 @@ export default function Graph() {
         Các chỉ số khác để đánh giá tổng quát màn trình diễn đóng góp của mỗi
         người vào lối chơi chung của toàn đội.
       </h2>
-
-      <RadarChart />
+      <div>
+        <RadarChart />
+        <div className="max-w-4xl mx-auto mb-10 text-justify">
+          Mọi người tưởng đá phạt đền rất dễ nhưng sự thật không phải như vậy vì
+          chỉ khi đứng trên chấm 11m chúng ta mới hiểu được áp lực căng thẳng
+        </div>
+      </div>
       <iframe
         className="w-full h-[450px]"
         loading="lazy"
