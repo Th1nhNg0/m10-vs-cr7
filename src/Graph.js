@@ -144,6 +144,19 @@ export default function Graph() {
           đoán được hướng cũng khó cản phá được.
         </div>
       </div>
+
+      <h2 className="pt-8 text-xl font-semibold text-center">
+        Các chỉ số khác để đánh giá tổng quát màn trình diễn đóng góp của mỗi
+        người vào lối chơi chung của toàn đội.
+      </h2>
+
+      <RadarChart />
+      <iframe
+        className="w-full h-[450px]"
+        loading="lazy"
+        title="Value compare"
+        src="graph/value.html"
+      ></iframe>
       <div>
         <iframe
           className="w-full h-[450px]"
@@ -161,36 +174,6 @@ export default function Graph() {
           </p>
         </div>
       </div>
-      <h2 className="pt-8 text-xl font-semibold text-center">
-        Các chỉ số khác để đánh giá tổng quát màn trình diễn đóng góp của mỗi
-        người vào lối chơi chung của toàn đội.
-      </h2>
-
-      <RadarChart />
-      <iframe
-        className="w-full h-[450px]"
-        loading="lazy"
-        title="Value compare"
-        src="graph/value.html"
-      ></iframe>
-      <iframe
-        className="w-full h-[450px]"
-        title="Danh hieu CLB"
-        loading="lazy"
-        src="graph/sodanhhieucapCLB.html"
-      ></iframe>
-      <iframe
-        className="w-full h-[450px]"
-        loading="lazy"
-        title="sotranthidau"
-        src="graph/sotranthidau.html"
-      ></iframe>
-      <iframe
-        loading="lazy"
-        className="w-full h-[450px]"
-        title="thephat"
-        src="graph/thephat.html"
-      ></iframe>
     </div>
   );
 }
