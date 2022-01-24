@@ -78,7 +78,16 @@ export default function Graph() {
           title="Penalty compare"
           loading="lazy"
           src="graph/goal_equaliser.html"
-  
+        ></iframe>
+        <div className="max-w-4xl mx-auto mb-10 text-justify">
+          Đội bóng của họ cũng có những lúc gặp khó khăn khi bị đối thủ dẫn trước ở những trận đấu cần điểm để đua top trên bảng xếp hạng hay
+          những trận loại trực tiếp. Vào những thời khắc ngặt nghèo vậy thì các cổ động viên và gần như cả đội bóng đều nhìn vào họ hi vọng 
+          họ sẽ tạo ra sự khác biệt đem lại bàn thắng hay còn gọi là gánh team. Sau những lần như vậy thì chúng ta được nghe điệp khúc "Khi cần Ronaldo/Messi có.
+          Khi khó có Ronaldo/Messi". Đây cũng là một chỉ số cho thấy đẳng cấp của họ. Nhìn lại quá khứ thì có không ít lần họ làm nổ tung cảm xúc của biết bao 
+          người với những bàn thắng xuất thần cứu đội bóng của mình.
+          
+          
+        </div>
         ></iframe>
         <div className="flex gap-10">
           <div className="flex-1 w-full h-full p-5 rounded-2xl aspect-video">
@@ -145,7 +154,7 @@ export default function Graph() {
         </div>
       </div>
       <h2 className="pt-8 text-xl font-semibold text-center">
-        Các chỉ số khác để đánh giá tổng quát về màn trình diễn và đóng góp
+        Các chỉ số khác để đánh giá tổng quát màn trình diễn đóng góp
         của mỗi người vào lối chơi chung của toàn đội.
       </h2>
 
