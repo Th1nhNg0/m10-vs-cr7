@@ -28,7 +28,7 @@ function Summary() {
   return (
     <div className="py-10">
       <h2 className="mb-5 text-5xl font-bold text-center">Kết luận</h2>
-      <p className="text-justify">Đây là phần kết luận</p>
+      <p className="text-justify">Đây là phần kết luận ok</p>
     </div>
   );
 }
