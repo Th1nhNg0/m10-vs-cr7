@@ -150,7 +150,7 @@ export default function Achievements() {
                 2009
               </li>
               <li>
-                Giành được 6 Quả bóng Vàng, trong đó 4 lần liên tiếp vào các năm
+                Giành được 7 Quả bóng Vàng, trong đó 4 lần liên tiếp vào các năm
                 2009, 2010, 2011 và 2012
               </li>
               <li>Ghi nhiều bàn thắng nhất cho một Câu lạc bộ</li>

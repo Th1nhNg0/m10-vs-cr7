@@ -152,27 +152,45 @@ export default function Graph() {
       <div>
         <RadarChart />
         <div className="max-w-4xl mx-auto mb-10 text-justify">
-            Thông số cho thấy khả năng phòng ngự, chuyền bóng, giữ bóng đi bóng để tấn công
-          <br />
-            Chính vì 2 người là những ngôi sao xuất sắc nhất thế giới trong khoảng thời gian đỉnh
-          cao của họ, cung cấp một số lượng đầu ra bàn thắng cho đội bóng, lối chơi của đội xoay quanh phục vụ họ
-          nên họ được miễn giảm nhiệm vụ phòng ngự, họ cũng không cần phải lùi quá sâu để hỗ trợ phòng ngự mà chỉ cần tập
-          trung dưỡng sức cho tấn công vậy nên các chỉ số về phòng thủ của họ thường không quá cao.
-          <br />
-            Về khả năng chuyền bóng, mở ra cơ hội cho đồng đội tấn công, kiến tạo M10 nhỉnh hơn CR7 vì M10 chơi ở vị trí sở trường là
-          kiến thiết dẫn dắt lối chơi tạo ra cơ hội cho đồng đội ghi bàn. M10 nhỏ con nên trọng tâm 
-          thấp giúp những pha đi bóng kĩ thuật của anh lắt léo dễ xoay sở qua người, anh cũng có nhãn quan 
-          rất tốt và thêm nữa những đồng đội của anh chủ yếu ăn tập với anh từ lúc trẻ được vận hành trong 
-          hệ thống chiến thuật nhuần nhuyễn nên số kiến tạo vượt trội. Cũng không nên xem thường CR7 về khả năng 
-          đi bóng cầm bóng qua người vì lúc trẻ anh thường xuyên có những tình huống như vậy nhưng mà giờ anh
-          lớn tuổi, hơn nữa anh đã được chỉ dạy và hiểu rằng bàn thắng quan trọng hơn nên đã chuyển vào đá trung lộ nên thiên hướng 
-          được đồng đội bơm bóng vào nhiều hơn. Và thực tế thì số bàn thắng của CR7 đang lớn hơn M10. 
-          <br />
-            Ở cúp C1 châu Âu Champions league, CR7 đang nắm giữ kỉ lục ghi bàn của giải đầu tiểu biểu là 
-           ghi bàn nhiều nhất ở một mùa giải với 17 bàn thắng.
-           <br />
-            Đặc biệt hơn nữa các thông số ở C1 của Ronaldo và Messi ở C1 hầu hết dều cao hơn giải quốc nội,
-           có thê thấy họ rất quyết tâm ở dấu trường này.
+          <p className="mb-3 font-semibold">
+            Thông số cho thấy khả năng phòng ngự, chuyền bóng, giữ bóng đi bóng
+            để tấn công
+          </p>
+          <ul className="space-y-2 list-disc">
+            <li>
+              Chính vì 2 người là những ngôi sao xuất sắc nhất thế giới trong
+              khoảng thời gian đỉnh cao của họ, cung cấp một số lượng đầu ra bàn
+              thắng cho đội bóng, lối chơi của đội xoay quanh phục vụ họ nên họ
+              được miễn giảm nhiệm vụ phòng ngự, họ cũng không cần phải lùi quá
+              sâu để hỗ trợ phòng ngự mà chỉ cần tập trung dưỡng sức cho tấn
+              công vậy nên các chỉ số về phòng thủ của họ thường không quá cao.
+            </li>
+            <li>
+              Về khả năng chuyền bóng, mở ra cơ hội cho đồng đội tấn công, kiến
+              tạo M10 nhỉnh hơn CR7 vì M10 chơi ở vị trí sở trường là kiến thiết
+              dẫn dắt lối chơi tạo ra cơ hội cho đồng đội ghi bàn. M10 nhỏ con
+              nên trọng tâm thấp giúp những pha đi bóng kĩ thuật của anh lắt léo
+              dễ xoay sở qua người, anh cũng có nhãn quan rất tốt và thêm nữa
+              những đồng đội của anh chủ yếu ăn tập với anh từ lúc trẻ được vận
+              hành trong hệ thống chiến thuật nhuần nhuyễn nên số kiến tạo vượt
+              trội. Cũng không nên xem thường CR7 về khả năng đi bóng cầm bóng
+              qua người vì lúc trẻ anh thường xuyên có những tình huống như vậy
+              nhưng mà giờ anh lớn tuổi, hơn nữa anh đã được chỉ dạy và hiểu
+              rằng bàn thắng quan trọng hơn nên đã chuyển vào đá trung lộ nên
+              thiên hướng được đồng đội bơm bóng vào nhiều hơn. Và thực tế thì
+              số bàn thắng của CR7 đang lớn hơn M10.
+            </li>
+            <li>
+              Ở cúp C1 châu Âu Champions league, CR7 đang nắm giữ kỉ lục ghi bàn
+              của giải đầu tiểu biểu là ghi bàn nhiều nhất ở một mùa giải với 17
+              bàn thắng.
+            </li>
+            <li>
+              Đặc biệt hơn nữa các thông số ở C1 của Ronaldo và Messi ở C1 hầu
+              hết dều cao hơn giải quốc nội, có thê thấy họ rất quyết tâm ở dấu
+              trường này.
+            </li>
+          </ul>
         </div>
       </div>
       <iframe

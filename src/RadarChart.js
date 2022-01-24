@@ -5,6 +5,11 @@ export default function RadarChart() {
   const [type, settype] = useState("def");
   return (
     <div className="py-5">
+      <iframe
+        className="w-full h-[500px]"
+        title="sotranthidau"
+        src={`graph/radar/${type}${League}.html`}
+      ></iframe>
       <div className="flex items-center justify-center w-full gap-5">
         <div>
           <select
@@ -26,11 +31,6 @@ export default function RadarChart() {
           </select>
         </div>
       </div>
-      <iframe
-        className="w-full h-[500px]"
-        title="sotranthidau"
-        src={`graph/radar/${type}${League}.html`}
-      ></iframe>
     </div>
   );
 }
