@@ -28,14 +28,22 @@ function Summary() {
   return (
     <div className="py-10">
       <h2 className="mb-5 text-5xl font-bold text-center">Kết luận</h2>
-      <p className="text-justify">Đây là phần kết luận ok</p>
+      <p className="text-justify">
+          Cuối cùng, qua màn trình diễn trên sân của họ, chúng ta nhận thấy Messi và Ronaldo họ đều là những ngôi sao sáng nhất trên sân, là linh hồn 
+        là hạt nhân của đội bóng, là thủ lĩnh tinh thần chỗ dựa cho đội bóng, tầm ảnh hưởng rất lớn lên không chỉ trong phòng thay đồ mà còn rộng
+        ra trên toàn Trái Đất, là hình mẫu là thần tượng của biết bao người từ già đến trẻ mỗi người có cái hay của riêng họ, phù hợp với 1 hệ thống chiến thuật riêng
+        đều xuất sắc nhất trong thời đại đỉnh cao của họ. Chúng ta nên cảm thấy may mắn hạnh phúc khi còn được xem họ thi đấu cạnh tranh nhau hàng tuần và hãy tận hưởng hết 
+        những trận trận đấu bóng đá đỉnh cao mà các cầu thủ đã đang sẽ mang đến chứ không nên tranh cãi xem ai xuất sắc hơn. Và cho dù ai xuất sắc hơn nhưng chúng 
+        ta yêu cầu thủ nào thì chúng ta vẫn cứ yêu thôi.
+        <br />
+      </p>
     </div>
   );
 }
 function Footer() {
   return (
     <div className="py-5 my-5 text-center ">
-      <p className="text-sm"> Dữ liệu được cập nhất đến ngày 12/01/2022.</p>
+      <p className="text-sm"> Dữ liệu được cập nhất đến ngày 24/01/2022.</p>
       <a
         href="https://github.com/Th1nhNg0/m10-vs-cr7"
         className="text-blue-500 underline"
