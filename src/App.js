@@ -52,12 +52,12 @@ function Footer() {
   return (
     <div className="py-5 my-5 text-center ">
       <p className="text-sm"> Dữ liệu được cập nhất đến ngày 24/01/2022.</p>
-      <a
-        href="https://github.com/Th1nhNg0/m10-vs-cr7"
-        className="text-blue-500 underline"
-      >
-        Source Code
-      </a>
+//       <a
+//         href="https://github.com/Th1nhNg0/m10-vs-cr7"
+//         className="text-blue-500 underline"
+//       >
+//         Source Code
+//       </a>
     </div>
   );
 }
